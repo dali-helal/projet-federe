@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-container {
+  min-height: 100vh;
+  width: 40%;
+  background-image: url(./login/images/books.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.content-page {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  width: 80%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3b75bb;
+}
+
+.title-container img {
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 80%;
+}
+
+.pargaraph-container {
+  width: 60%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #333;
+  margin-top: 3rem;
+  position: relative;
+  transition: 0.3s;
+}
+
+.pargaraph-container h4 {
+  max-width: 70%;
+}
+
+.pargaraph-container h2 {
+  font-size: 30px;
+  color: #3b75bb;
+  max-width: 60%;
+}
+
+.login form {
+  width: 418px;
+  padding: 2rem;
+  margin-top: 6.9rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px;
+  transition: 0.3s;
+}
+
+.login form > div {
+  background: #eee;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  display: flex;
+  position: relative;
+  border-left: 8px solid #3b75bb;
+}
+
+.login form input {
+  border: none;
+  outline: none;
+  height: 100%;
+  background: none;
+  padding-left: 1rem;
+}
+
+.translated {
+  transform: translateX(-170%);
+}
+
+button {
+  background: #3b75bb;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
